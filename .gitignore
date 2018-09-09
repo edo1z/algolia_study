@@ -1,2 +1,4 @@
 algolia.config.js
 node_modules
+dist
+.cache
