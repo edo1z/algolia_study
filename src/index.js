@@ -3,7 +3,7 @@ import client from '../algolia.config'
 const index = client.initIndex('demo_ecommerce')
 index.search(
   {
-	query: 'AT&T',
+	query: 'iPhone camera 32GB gold',
 	ignorePlurals: true
   },
   function searchDone(err, content) {
